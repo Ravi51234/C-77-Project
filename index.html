@@ -1,46 +1,48 @@
 <html>
     <head>
-        <title>Javascript Syntax</title>
-    </head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <title>Console Project</title>
+        <link rel="shortcut icon" href="https://static.thenounproject.com/png/4514265-200.png">
+        <style>
+            .sp{
+                 color:skyblue;
+                 border-radius:50px;
+            }
 
-    <body>
-        <h1>Javascript Functions Practice</h1>
+            ::selection{
+                color:orange;
+                background-color:black;      
+            }
+        </style>
         <script>
-            console.log("This is Console");
-            var first_name="Hardik";
-            console.log(first_name);
-            var second_name="Jindal";
-            console.log(second_name);
-            var full_name=first_name.concat(second_name);
+            var first_name = "Hardik ";
+            var last_name = "Jindal";
+            var full_name = first_name.concat(last_name);
             console.log(full_name);
 
-            var length_of_full_name=full_name.length;
-            console.log(length_of_full_name);
-
-            var name_one="I am Hardik Garg";
-            console.log(name_one);
-            var replace_name=name_one.replace("Garg","Jindal");
-            console.log(replace_name);
-
-            var capital_name="HARDIK";
-            var making_lower_case=capital_name.toLowerCase();
-            console.log(making_lower_case);
-
-            var small_name="hardik";
-            var making_upper_case=small_name.toUpperCase();
-            console.log(making_upper_case);
-
-            var square_root=Math.sqrt(16);
-            console.log(square_root);
-
-            var maximum_number=Math.max(15,8);
-            console.log(maximum_number);
-
-            var minimum_number=Math.min(15,8);
-            console.log(minimum_number);
-
-            var power_eg_1=Math.pow(4,2);
-            console.log(power_eg_1);
+            var a = 10;
+            var b = 5;
+            var add = a + b;
+            console.log(add);
+            var sub = a - b;
+            console.log(sub);
+            var pow = Math.pow(a,b);
+            console.log(pow);
+            var max = Math.max(a,b);
+            console.log(max);
+            var min = Math.min(a,b);
+            console.log(min);
+            var sqrt = Math.sqrt(a,b);
+            console.log(sqrt);
         </script>
+    </head>
+    <body style="text-align:center;">
+        <h1 class="text-success"><span class="glyphicon glyphicon-star sp"></span>Project On Console<span class="glyphicon glyphicon-star sp"></span></h1>
+        <h3 class="text-muted">A web console is a tool that is mainly used to log information associated with a web page like, network requests, JavaScript, security errors, warnings, CSS, etc. It enables us to interact with a web page by executing JavaScript expressions in the contents of the page.</h2>
+        <h3 class="text-capitalize">This Project is made on VS Code</h3>
+        <h4>Open Console</h4>
     </body>
 </html>
